@@ -16,7 +16,7 @@ class LoginForm(Form):
         'group',
         validators=[DataRequired()],
         render_kw={
-            'placeholder': 'Recipient or Group',
+            'placeholder': 'Group',
             'required': True},
     )
     submit = SubmitField('Send')
